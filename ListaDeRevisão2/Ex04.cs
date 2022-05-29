@@ -1,11 +1,13 @@
 using System; 
 public class Program {
   public static void Main(string[] args) {
+    Console.WriteLine("Digite o primeiro horário no formato hh:mm");
     string s = Console.ReadLine();
     string[] z = s.Split(':');
     int hora = int.Parse(z[0]);
     int minuto = int.Parse(z[1]);
 
+    Console.WriteLine("Digite o segundo horário no formato hh:mm");
     string c = Console.ReadLine();
     string[] x = c.Split(':');
     int hora2 = int.Parse(x[0]);

@@ -1,6 +1,7 @@
 using System; 
 public class Program {
   public static void Main(string[] args) {
+    Console.WriteLine("Digite os coeficientes a, b e c de uma equação do II grau");
     double a = double.Parse(Console.ReadLine());
     double b = double.Parse(Console.ReadLine());
     double c = double.Parse(Console.ReadLine());

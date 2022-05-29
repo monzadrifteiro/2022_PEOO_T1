@@ -1,7 +1,7 @@
 using System; 
 public class Program {
   public static void Main(string[] args) {
-    
+    Console.WriteLine("Digite quatro valores inteiros");
     int n1 =int.Parse(Console.ReadLine());
     int n2 =int.Parse(Console.ReadLine());
     int n3 =int.Parse(Console.ReadLine());

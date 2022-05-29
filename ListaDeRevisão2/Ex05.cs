@@ -1,6 +1,7 @@
 using System; 
 public class Program {
   public static void Main(string[] args) {
+    Console.WriteLine("Informe o número do mês");
     string mes = Console.ReadLine();
     int meses = int.Parse(mes);
 
