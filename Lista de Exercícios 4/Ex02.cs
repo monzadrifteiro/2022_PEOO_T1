@@ -9,4 +9,3 @@ public static void Main(string[] args) {
   Console.WriteLine($"{litros:0.000}");
   }
 }
-  
