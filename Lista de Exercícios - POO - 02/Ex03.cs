@@ -6,7 +6,7 @@ public class Program {
     linda.SetDistancia(double.Parse(Console.ReadLine()));
     Console.WriteLine("Digite o tempo gasto em horas e minutos: ");
     linda.SetTempo(double.Parse(Console.ReadLine()));
-    Console.WriteLine($"A velocidade média é de: {linda.VelocidadeMedia()}");
+    Console.WriteLine($"A velocidade média é: {linda.VelocidadeMedia()}");
   }
   class Viagem{
     private double distancia;
