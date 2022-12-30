@@ -1,11 +1,8 @@
 using System; 
 public class Program {
   public static void Main(string[] args) {
-    Retangulo lindo = new Retangulo();
-    Console.WriteLine("Digite o valor da Base: ");
-    lindo.SetBase(double.Parse(Console.ReadLine()));
-    Console.WriteLine("Digite o valor da Altura: ");
-    lindo.SetAltura(double.Parse(Console.ReadLine()));
+    Console.WriteLine("Digite o valor da Base e da Altura: ");
+    Retangulo lindo = new Retangulo(double.Parse(Console.ReadLine()), double.Parse(Console.ReadLine()));
     Console.WriteLine($"O valor da aréa é: {lindo.CalcArea()}");
     Console.WriteLine($"O valor da diagonal é: {lindo.CalcDiagonal():0.00}");
   }
@@ -13,6 +10,10 @@ public class Program {
 class Retangulo{
   private double b;
   private double h;
+  public Retangulo(double b, double h){
+    this.b = b;
+    this.h = h;
+  }
   public void SetBase(double b){
     if(b > 0) this.b = b;
   }

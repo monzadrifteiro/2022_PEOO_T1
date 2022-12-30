@@ -1,9 +1,8 @@
 using System; 
 public class Program {
   public static void Main(string[] args) {
-    Equacao linda = new Equacao();
     Console.WriteLine("Digite os valores dos elementos A, B e C da equação: ");
-    linda.SetABC(double.Parse(Console.ReadLine()), double.Parse(Console.ReadLine()), double.Parse(Console.ReadLine()));
+    Equacao linda = new Equacao(double.Parse(Console.ReadLine()), double.Parse(Console.ReadLine()), double.Parse(Console.ReadLine()));
     Console.WriteLine($"O valor do delta da equação é: {linda.Delta():0.00}");
     double g, h;
     if(linda.RaizesReais(out g, out h)){
@@ -16,6 +15,11 @@ public class Program {
 }
 class Equacao{
   private double a, b, c;
+  public Equacao(double a, double b, double c){
+    this.a = a; 
+    this.b = b; 
+    this.c = c;
+  }
   public void SetABC(double a, double b, double c){
     if (a != 0){
       this.a = a; 
