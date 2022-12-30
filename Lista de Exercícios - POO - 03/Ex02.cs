@@ -4,6 +4,7 @@ public class Program {
     Console.WriteLine("Digite o valor do peso e da distância em KG e KM: ");
     Frete lindo = new Frete(double.Parse(Console.ReadLine()), double.Parse(Console.ReadLine()));
     Console.WriteLine($"O valor do frete é: R$ {lindo.CalcFrete():0.00}");
+    Console.WriteLine(lindo.ToString());
   }
 }
 class Frete{
@@ -27,5 +28,8 @@ class Frete{
   }
   public double CalcFrete(){
     return ((0.01 * peso) * distancia);
+  }
+  public override string ToString(){
+    return $"O peso do produto é {peso} e a distância é {distancia}";
   }
 }

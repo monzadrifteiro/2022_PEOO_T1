@@ -11,6 +11,7 @@ public class Program {
     else{
       Console.WriteLine($"Os valores de X1 e X2 não são reais.");
     }
+    Console.WriteLine(linda.ToString());
   }
 }
 class Equacao{
@@ -40,5 +41,8 @@ class Equacao{
     xd = (-b +- Math.Sqrt(Delta())) / 2 * a;
     if (Delta() < 0) return false;
     return true;
+  }
+  public override string ToString(){
+    return $"Os valores de A, B e C são: {a}, {b}, {c}";
   }
 }

@@ -5,6 +5,7 @@ public class Program {
     Retangulo lindo = new Retangulo(double.Parse(Console.ReadLine()), double.Parse(Console.ReadLine()));
     Console.WriteLine($"O valor da aréa é: {lindo.CalcArea()}");
     Console.WriteLine($"O valor da diagonal é: {lindo.CalcDiagonal():0.00}");
+    Console.WriteLine(lindo.ToString());
   }
 }
 class Retangulo{
@@ -31,5 +32,8 @@ class Retangulo{
   }
   public double CalcDiagonal(){
     return Math.Sqrt(b * b + h * h);
+  }
+  public override string ToString(){
+    return $"A base do retângulo é {b} e a altura é {h}";
   }
 }
