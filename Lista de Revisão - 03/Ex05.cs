@@ -1,12 +1,12 @@
 using System; 
 public class Program {
   public static void Main(string[] args) {
-    int i = 1;
-    int j = 1;
-    while(i + j <= 46){
-      Console.Write(i + j + " ");
-      j = j + i;
-      i = i + 1;
-    }
+    double a = double.Parse(Console.ReadLine());
+    double b = double.Parse(Console.ReadLine());
+    double c = double.Parse(Console.ReadLine());
+    Console.WriteLine(VolumeLitros(a, b, c));
+  }
+  public static double VolumeLitros(double h, double l, double p){
+    return h * l * p;
   }
 }

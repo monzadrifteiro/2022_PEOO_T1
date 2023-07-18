@@ -1,14 +1,11 @@
 using System; 
 public class Program {
   public static void Main(string[] args) {
-    Console.WriteLine("Digite dois valores inteiros");
-    int a = int.Parse(Console.ReadLine());
-    int b = int.Parse(Console.ReadLine());
-
-    if (a > b){Console.WriteLine(a);}
-    
-    else if (b > a){Console.WriteLine(b);}
-    
-    else{Console.WriteLine("Números iguais");}
+    int i = 0;
+    while(i < 10){
+      i += 1;
+      if(i == 1){Console.Write($"Resultado:{i} ");}
+      else{Console.Write($"{i} ");}
+    }
   }
 }
