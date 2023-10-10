@@ -14,71 +14,80 @@ C#, linguaguem utilizada nas aulas, é amplamente utilizada na indústria de des
 
 ## 🎯 Exercícios Resolvidos:
 
-<br>
-
 <details>
   <summary> Introdução ao C# </summary>
   <ul>
-    <a href="https://github.com/monzadrifteiro/2023_BEECROWD/blob/main/C%23/1040.cs">
-      <li>a</li>
+    <a href="https://github.com/monzadrifteiro/2022_PEOO_T1/tree/main/Lista%20de%20Exerc%C3%ADcios%20-%2001">
+      <li>Variáveis</li>
+    </a>
+    <a href="https://github.com/monzadrifteiro/2022_PEOO_T1/tree/main/Lista%20de%20Exerc%C3%ADcios%20-%2002">
+      <li>Concatenação de strings</li>
+    </a>
+    <a href="https://github.com/monzadrifteiro/2022_PEOO_T1/tree/main/Lista%20de%20Exerc%C3%ADcios%20-%2003">
+      <li>Operadores aritméticos</li>
+    </a>
+    <a href="https://github.com/monzadrifteiro/2022_PEOO_T1/tree/main/Lista%20de%20Exerc%C3%ADcios%20-%2004">
+      <li>Interpolação de strings</li>
     </a>
   </ul>
 </details>
-
-<br>
 
 <details>
   <summary> Estruturas Condicinais </summary>
   <ul>
-    <a href="https://github.com/monzadrifteiro/2023_BEECROWD/blob/main/C%23/1040.cs">
-      <li>1040 - Média 3</li>
+    <a href="https://github.com/monzadrifteiro/2022_PEOO_T1/tree/main/Lista%20de%20Exerc%C3%ADcios%20-%2005">
+      <li>Instruções de seleção</li>
+    </a>
+    <a href="https://github.com/monzadrifteiro/2022_PEOO_T1/tree/main/Lista%20de%20Revis%C3%A3o%20-%2001">
+      <li>Operadores de igualdade e comparação</li>
     </a>
   </ul>
 </details>
-
-<br>
-
 
 <details>
   <summary> Estruturas de Repetição </summary>
   <ul>
-    <a href="https://github.com/monzadrifteiro/2023_BEECROWD/blob/main/C%23/1040.cs">
-      <li>1040 - Média 3</li>
+    <a href="https://github.com/monzadrifteiro/2022_PEOO_T1/tree/main/Lista%20de%20Exerc%C3%ADcios%20-%2006">
+      <li>Instruções de iteração</li>
+    </a>
+    <a href="https://github.com/monzadrifteiro/2022_PEOO_T1/tree/main/Lista%20de%20Revisão%20-%2002">
+      <li>Contadores</li>
     </a>
   </ul>
 </details>
-
-<br>
 
 <details>
   <summary> Funções e Métodos </summary>
   <ul>
-    <a href="https://github.com/monzadrifteiro/2023_BEECROWD/blob/main/C%23/1040.cs">
-      <li>1040 - Média 3</li>
+    <a href="https://github.com/monzadrifteiro/2022_PEOO_T1/tree/main/Lista%20de%20Exerc%C3%ADcios%20-%2007">
+      <li>Manipulação de funções</li>
+    </a>
+    <a href="https://github.com/monzadrifteiro/2022_PEOO_T1/tree/main/Lista%20de%20Revis%C3%A3o%20-%2003">
+      <li>Revisão dos conceitos básicos</li>
     </a>
   </ul>
 </details>
-
-<br>
 
 <details>
-  <summary> Introdução a Programação Orientada a Objetos </summary>
+  <summary> Programação Orientada a Objetos </summary>
   <ul>
-    <a href="https://github.com/monzadrifteiro/2023_BEECROWD/blob/main/C%23/1040.cs">
-      <li>1040 - Média 3</li>
+    <a href="https://github.com/monzadrifteiro/2022_PEOO_T1/tree/main/Lista%20de%20Exerc%C3%ADcios%20-%20POO%20-%2001">
+      <li>Instanciação de classes</li>
+    </a>
+    <a href="https://github.com/monzadrifteiro/2022_PEOO_T1/tree/main/Lista%20de%20Exerc%C3%ADcios%20-%20POO%20-%2002">
+      <li>Encapsulamento</li>
+    </a>
+    <a href="https://github.com/monzadrifteiro/2022_PEOO_T1/tree/main/Lista%20de%20Exerc%C3%ADcios%20-%20POO%20-%2003">
+      <li>Construtores</li>
+    </a>
+    <a href="https://github.com/monzadrifteiro/2022_PEOO_T1/tree/main/Lista%20de%20Exerc%C3%ADcios%20-%20POO%20-%2004%20-%20A">
+      <li>Vetores</li>
+    </a>
+    <a href="https://github.com/monzadrifteiro/2022_PEOO_T1/tree/main/Lista%20de%20Exerc%C3%ADcios%20-%20POO%20-%2004%20-%20B">
+      <li>Revisão de vetores</li>
+    </a>
+    <a href="https://github.com/monzadrifteiro/2022_PEOO_T1/tree/main/Lista%20de%20Exerc%C3%ADcios%20-%20POO%20-%2005">
+      <li>Propriedades</li>
     </a>
   </ul>
 </details>
-
-<br>
-
-<details>
-  <summary> Encapsulamento </summary>
-  <ul>
-    <a href="https://github.com/monzadrifteiro/2023_BEECROWD/blob/main/C%23/1040.cs">
-      <li>1040 - Média 3</li>
-    </a>
-  </ul>
-</details>
-
-<br>
